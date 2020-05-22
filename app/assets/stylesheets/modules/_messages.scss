@@ -47,17 +47,20 @@
     background-color: #2f3e51;
     height: calc(100% - 100px);
     padding-top: 20px;
-    .groups {
-      color: #ffffff;
-      font-size: 15px;
-      padding-bottom: 5px;
-      margin: 0 20px;
-    }
-    .message-box {
-      color: #ffffff;
-      font-size: 11px;
-      margin: 0 20px;
-      height: 50px
+    .group-link {
+      text-decoration: none;
+      .groups {
+        color: #ffffff;
+        font-size: 15px;
+        padding-bottom: 5px;
+        margin: 0 20px;
+      }
+      .message-box {
+        color: #ffffff;
+        font-size: 11px;
+        margin: 0 20px;
+        height: 50px;
+      }
     }
   }
 }
